@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+  <title>Gallery</title>
+  <link rel="stylesheet" href="style1.css">
+  <script src="script1.js" defer></script>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+      <div class="logo-title-container">
+        <img src="images/logo_purple.png" alt="Business Logo" class="logo" />
+        <span class="company-name">Book Haven</span>
+      </div>
+      <h1 class="site-title">Gallery</h1>
+      <nav>
+        <ul class="page-links" > 
+          <li><a href="home.html">Home</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="community.html">Community</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <section class="gallery-section">
+            <h2 class="gallery-title">Browse our Store Gallery</h2>
+            <div class="view-cart-container">
+                <button id="view-cart" >View Cart</button>
+            </div>
+            <div class="gallery-container">
+              <div class="gal-box">
+                <img src="images/Client3_Book1.png" alt="Brie Mine 4Ever Book">
+                <h3>Brie Mine 4Ever</h3>
+                <p>a book for cheese lovers</p>
+                <button class="add2cart" data-id="Brie Mine 4Ever " >Add to Cart</button>
+              </div>
+              <div class="gal-box">
+                <img src="images/Client3_Book2.png" alt="Glory Riders Book">
+                <h3>Glory Riders</h3>
+                <p>a book about bikers</p>
+                <button class="add2cart" data-id="Glory Riders " >Add to Cart</button>
+              </div>
+              <div class="gal-box">
+                <img src="images/Client3_Book3.png" alt="Sorcerer's Shadowed Chronicles Book">
+                <h3>Sorcerer's Shadowed Chronicles</h3>
+                <p>a fantasy book</p>
+                <button class="add2cart" data-id="Sorcerer's Shadowed Chronicles Book " >Add to Cart</button>
+              </div>
+              <div class="gal-box">
+                <img src="images/Client3_Magazine1.png" alt="Ball Magazine ">
+                <h3>Ball</h3>
+                <p>a magazine about pickleball</p>
+                <button class="add2cart" data-id="Ball Magazine" >Add to Cart</button>
+              </div>
+              <div class="gal-box">
+                <img src="images/Client3_Magazine2.png" alt="Travel Magazine">
+                <h3>Travel</h3>
+                <p>a magazine for travelers</p>
+                <button class="add2cart" data-id="Travel Magazine" >Add to Cart</button>
+              </div>
+              <div class="gal-box">
+                <img src="images/Client3_Magazine3.png" alt="Eat. Magazine">
+                <h3>Eat.</h3>
+                <p>a magazine for foodies</p>
+                <button class="add2cart" data-id="Eat. Magazine" >Add to Cart</button>
+              </div>
+              <div class="gal-box">
+                <img src="images/Client3_ToteBag.png" alt="Tote Bag">
+                <h3>Canvas Tote Bag</h3>
+                <p>a canvas tote bag with black lettering that says "ALL I DO IS READ READ READ"</p>
+                <button class="add2cart" data-id="tote bag" >Add to Cart</button>
+              </div>
+              <div class="gal-box">
+                <img src="images/Client3_Notebook.png" alt="Notebook">
+                <h3>Book Haven Notebook</h3>
+                <p>a notebook with text on the cover that says "Book Haven Bookstore"</p>
+                <button class="add2cart" data-id="Notebook" >Add to Cart</button>
+              </div>
+              <div class="gal-box">
+                <img src="images/Client3_Stickers.png" alt="Bookstore Stickers">
+                <h3>Book Haven Stickers</h3>
+                <p>a set of four Book Haven Bookstore stickers that promote reading</p>
+                <button class="add2cart" data-id ="Bookstore Stickers" >Add to Cart</button>
+              </div> 
+                                       
+            </div>
+        </section>
+
+
+
+    </main>
+    <div id ="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="cart-title" >Your Cart</h2>
+            <div id="modal-cart-prod"></div>
+            <div class="modal-buttons">
+                <button id="clear-cart">Clear Cart</button>
+                <button id="process-order">Process Order</button>
+            </div>
+        </div>
+    </div>
+    <footer> 
+    <div class = "newsletter">
+        <h3>Subscribe</h3>
+        <p> Get our news and updates</p>
+        <input type="email" id = "sub-email" placeholder="enter email" />
+        <button id= "signup-btn">Sign Up</button>
+    </div>
+
+    <nav>
+      <ul class="footer-page-links">
+          <h3>Quick Links</h3>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="community.html">Community</a></li>
+      </ul>
+    </nav>
+
+    <div class = "social-media">
+        <h3>Follow Us</h3>
+        <div class = "S_links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">X</a>
+        </div>
+    </div>
+</footer>
+</div>
+
+
+
+
